@@ -1,0 +1,20 @@
+uuid: a6050e4f-7994-4324-a723-e545791a3873
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: R8M8mXpI17IctD9012zGBKJ2SwzMcBWw4GQ7dG1aDJY
+name: image_style_1_3_landscape_sm
+label: '1:3 landscape sm [768×256]'
+effects:
+  ab19415f-2fda-4d55-9a98-b8feef8be653:
+    uuid: ab19415f-2fda-4d55-9a98-b8feef8be653
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 256
+      crop_type: focal_point
+pipeline: __default__

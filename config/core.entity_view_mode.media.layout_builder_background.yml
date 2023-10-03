@@ -1,0 +1,12 @@
+uuid: 1ed1b1ca-8897-48ac-9fcc-e5da0819a6aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+_core:
+  default_config_hash: 9vwNohWa4IeV33g4t8ApP3XQy0FNfzbgQnys5UxVmN4
+id: media.layout_builder_background
+label: 'Layout Builder Background'
+targetEntityType: media
+cache: true

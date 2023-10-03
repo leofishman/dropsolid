@@ -1,0 +1,18 @@
+uuid: 12177707-7b44-41e7-95bb-13be1b2bcf45
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: CzqsN3RFIR1mkN_niSz6Y5SVEXs4QBzNXTU0l1PVHYM
+name: image_style_scale_width_sm_2x
+label: 'Scale width sm [768] 2x'
+effects:
+  215ffa62-6554-47ce-a607-d45eb9aa42c0:
+    uuid: 215ffa62-6554-47ce-a607-d45eb9aa42c0
+    id: image_scale
+    weight: 1
+    data:
+      width: 1536
+      height: null
+      upscale: false
+pipeline: __default__

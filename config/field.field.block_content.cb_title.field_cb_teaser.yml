@@ -1,0 +1,21 @@
+uuid: 8c152c07-f79c-489b-8549-b7f9d23298cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_title
+    - field.storage.block_content.field_cb_teaser
+_core:
+  default_config_hash: Y4YmipZfuqjEzTQZjsFLwHQGpPECSyw6at-8iqVXZW0
+id: block_content.cb_title.field_cb_teaser
+field_name: field_cb_teaser
+entity_type: block_content
+bundle: cb_title
+label: Teaser
+description: 'Display a short descriptive text.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

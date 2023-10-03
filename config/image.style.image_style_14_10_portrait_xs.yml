@@ -1,0 +1,20 @@
+uuid: db110b6b-8d52-4c10-85d2-db089ab8e995
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: 71rowazLVgq1yYVSPWYn9FoWCVU1iTeCqtS0wX81NsA
+name: image_style_14_10_portrait_xs
+label: '14:10 portrait xs [320×448]'
+effects:
+  43f0f642-5cd5-444b-96b8-d3a067b4950b:
+    uuid: 43f0f642-5cd5-444b-96b8-d3a067b4950b
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 320
+      height: 448
+      crop_type: focal_point
+pipeline: __default__

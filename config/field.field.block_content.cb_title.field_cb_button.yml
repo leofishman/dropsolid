@@ -1,0 +1,25 @@
+uuid: efd2e682-6e19-4fe7-a72d-2742ebe56a40
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_title
+    - field.storage.block_content.field_cb_button
+  module:
+    - link
+_core:
+  default_config_hash: VhFVR0qO4xK4bXOPYEz59tworqkOaQA72l6tCKiosWs
+id: block_content.cb_title.field_cb_button
+field_name: field_cb_button
+entity_type: block_content
+bundle: cb_title
+label: Button
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

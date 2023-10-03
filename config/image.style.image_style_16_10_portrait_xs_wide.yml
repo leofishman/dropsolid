@@ -1,0 +1,20 @@
+uuid: 8782c825-bd3d-4152-a86b-2b898e6904c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: FWaaT2w0E2S96BP5pTAky_g7nNLmJPPXZD-CUW39OO4
+name: image_style_16_10_portrait_xs_wide
+label: '16:10 portrait xs wide [480×768]'
+effects:
+  5531158d-6e4f-45fb-b66b-19be981638eb:
+    uuid: 5531158d-6e4f-45fb-b66b-19be981638eb
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 768
+      crop_type: focal_point
+pipeline: __default__

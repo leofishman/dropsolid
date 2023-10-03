@@ -1,0 +1,15 @@
+uuid: 20123d90-2130-4f73-9053-5611adf983c8
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_photo_gallery.svg
+_core:
+  default_config_hash: 90z0DeK7vzCgJvFZPwFock41zdOgOpeqmryqwtwRSOU
+id: cb_photo_gallery
+label: 'Photo Gallery'
+revision: 0
+description: 'Add images to your page in a clean, mobile-friendly way. Choose between a simple grid or a fancy masonry effect.'

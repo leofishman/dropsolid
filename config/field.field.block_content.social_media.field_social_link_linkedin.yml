@@ -1,0 +1,25 @@
+uuid: 135c2ad2-afbd-4606-8324-aa6df7517844
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+    - field.storage.block_content.field_social_link_linkedin
+  module:
+    - link
+_core:
+  default_config_hash: xS2F4RI4WcKou-pUZjbDWFttjwhP4UnRjoFQr2wc0FM
+id: block_content.social_media.field_social_link_linkedin
+field_name: field_social_link_linkedin
+entity_type: block_content
+bundle: social_media
+label: LinkedIn
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

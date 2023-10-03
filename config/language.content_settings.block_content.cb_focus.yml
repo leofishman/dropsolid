@@ -1,0 +1,18 @@
+uuid: 4ddf0af9-102f-4610-a9a3-a2bf07aad8bc
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_focus
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: gzr7o39JXwsj3TdBTLjnbRUO3Tr357kpcFkbvUDUqVQ
+id: block_content.cb_focus
+target_entity_type_id: block_content
+target_bundle: cb_focus
+default_langcode: current_interface
+language_alterable: false

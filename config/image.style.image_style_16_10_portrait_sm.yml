@@ -1,0 +1,20 @@
+uuid: 90887c5d-8070-4b29-bf06-74e0812f63ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: _C1S3a7ZfTkgPqV8aAzA7evhv-BNpwJsxzTXlJ_9Wso
+name: image_style_16_10_portrait_sm
+label: '16:10 portrait sm [768×1229]'
+effects:
+  3f7ae654-3d6b-47f8-a9d3-85ace68887ec:
+    uuid: 3f7ae654-3d6b-47f8-a9d3-85ace68887ec
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 1229
+      crop_type: focal_point
+pipeline: __default__

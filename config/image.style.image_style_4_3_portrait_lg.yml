@@ -1,0 +1,20 @@
+uuid: a5907146-b901-4ab1-a44a-910a23e8b4c0
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: ZJ6mIb98ITxRpP8Ps25Icj_NJZBHJc0HZs41AuL2Jl4
+name: image_style_4_3_portrait_lg
+label: '4:3 portrait lg [1200×1600]'
+effects:
+  0c3362bf-0eb2-42ca-b558-d63480f57495:
+    uuid: 0c3362bf-0eb2-42ca-b558-d63480f57495
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 1600
+      crop_type: focal_point
+pipeline: __default__

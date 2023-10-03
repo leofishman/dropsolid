@@ -1,0 +1,189 @@
+{
+    "name": "dropsolid/rocketship",
+    "description": "Dropsolid Rocketship is a distribution that enables small to mid-market business to profit from an optimal start when getting your feet wet in Drupal.",
+    "type": "project",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Mattias Michaux",
+            "homepage": "https://www.drupal.org/u/mollux",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Nick Vanpraet",
+            "homepage": "https://www.drupal.org/u/grayle",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.0",
+        "composer/installers": "^1.12",
+        "cweagans/composer-patches": "^1.7",
+        "drupal/core-composer-scaffold": "^10.1.1",
+        "drupal/core-project-message": "^10.1.1",
+        "drupal/core-recommended": "^10.1.1",
+        "drupal/core-vendor-hardening": "^10.1.1",
+        "drupal/dropsolid_rocketship_profile": "^6.1",
+        "drupal/rocketship_theme_generator": "^4.0",
+        "drush/drush": "^11",
+        "harvesthq/chosen": "1.8.7",
+        "imakewebthings/waypoints": "^4.0.1",
+        "jackmoore/colorbox": "^1.6",
+        "kenwheeler/slick": "1.8.1",
+        "topfloor/composer-cleanup-vcs-dirs": "^1.1",
+        "vardot/blazy": "^1.8"
+    },
+    "require-dev": {
+        "drupal/core-dev": "^10.1",
+        "drupal/twig_vardumper": "^3.1",
+        "drupal/twig_xdebug": "^1.2"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "autoloader-suffix": "Drupal8",
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "drupal/core-composer-scaffold": true,
+            "drupal/core-vendor-hardening": true,
+            "topfloor/composer-cleanup-vcs-dirs": true,
+            "drupal/console-extend-plugin": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-project-message": true,
+            "phpstan/extension-installer": true
+        }
+    },
+    "extra": {
+        "patches-file": "composer.patches.json",
+        "patches-ignore": [],
+        "composer-exit-on-patch-failure": true,
+        "patchLevel": {
+            "drupal/core": "-p2"
+        },
+        "enable-patching": true,
+        "installer-paths": {
+            "docroot/core": [
+                "type:drupal-core"
+            ],
+            "docroot/modules/contrib/{$name}": [
+                "type:drupal-module"
+            ],
+            "docroot/profiles/{$name}": [
+                "type:drupal-profile"
+            ],
+            "docroot/themes/contrib/{$name}": [
+                "type:drupal-theme"
+            ],
+            "docroot/modules/custom/{$name}": [
+                "type:drupal-custom-module"
+            ],
+            "docroot/themes/custom/{$name}": [
+                "type:drupal-custom-theme"
+            ],
+            "docroot/libraries/{$name}": [
+                "type:drupal-library"
+            ]
+        },
+        "drupal-scaffold": {
+            "locations": {
+                "web-root": "./docroot"
+            },
+            "file-mapping": {
+                "project-root/.gitignore": false,
+                "web-root/.csslintrc": false,
+                "web-root/.eslintignore": false,
+                "web-root/.eslintrc.json": false,
+                "web-root/example.gitignore": false,
+                "web-root/INSTALL.txt": false,
+                "web-root/README.md": false,
+                "web-root/README.txt": false,
+                "web-root/web.config": false,
+                "web-root/modules/README.txt": false,
+                "web-root/profiles/README.txt": false,
+                "web-root/sites/README.txt": false,
+                "web-root/sites/default/default.services.yml": false,
+                "web-root/sites/example.settings.local.php": false,
+                "web-root/sites/example.sites.php": false,
+                "web-root/themes/README.txt": false,
+                "web-root/robots.txt": {
+                    "append": "etc/scaffold-modifications/robots.txt.append",
+                    "prepend": "etc/scaffold-modifications/robots.txt.prepend"
+                }
+            },
+            "allowed-packages": [
+                "drupal/core"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Drupal\\Core\\Composer\\": "core/lib/Drupal/Core/Composer"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "cp etc/.gitignore .gitignore"
+        ],
+        "post-drupal-scaffold-cmd": [
+            "patch -p1 < ./etc/scaffold-modifications/htaccess.patch"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "kenwheeler/slick",
+                "version": "1.8.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/kenwheeler/slick/archive/v1.8.1.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.x.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "imakewebthings/waypoints",
+                "version": "4.0.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/imakewebthings/waypoints/archive/master.zip",
+                    "type": "zip"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "harvesthq/chosen",
+                "version": "1.8.7",
+                "type": "drupal-library",
+                "source": {
+                    "url": "https://github.com/harvesthq/chosen-package.git",
+                    "type": "git",
+                    "reference": "v1.8.7"
+                }
+            }
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ]
+}

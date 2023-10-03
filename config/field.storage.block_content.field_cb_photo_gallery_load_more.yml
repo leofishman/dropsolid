@@ -1,0 +1,20 @@
+uuid: 81aac853-2e99-4705-ad0f-aff77338c0b5
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: 24ivzKuuAKqkRm2ywxvL6icE6O7q1h1crq48RZgVh7A
+id: block_content.field_cb_photo_gallery_load_more
+field_name: field_cb_photo_gallery_load_more
+entity_type: block_content
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

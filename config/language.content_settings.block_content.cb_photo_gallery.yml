@@ -1,0 +1,18 @@
+uuid: 9fab43a8-401c-48b2-bace-1e96bdb051b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_photo_gallery
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: WiVjw33Tu7eE5SeMEsivqB0TC2nMqlgLTtNyGMKwmKk
+id: block_content.cb_photo_gallery
+target_entity_type_id: block_content
+target_bundle: cb_photo_gallery
+default_langcode: current_interface
+language_alterable: false

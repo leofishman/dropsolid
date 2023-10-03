@@ -1,0 +1,18 @@
+uuid: f2e3d07f-054e-48f6-9e55-116b167e1ac7
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_faq
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: VSccH8_47IfEjpPECU_w3awjVH0pJ2xcrGEmcipiy-E
+id: block_content.cb_faq
+target_entity_type_id: block_content
+target_bundle: cb_faq
+default_langcode: current_interface
+language_alterable: false

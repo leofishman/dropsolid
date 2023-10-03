@@ -1,0 +1,15 @@
+uuid: 3351e303-0716-414a-802f-e02c2439ab92
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_testimonial.svg
+_core:
+  default_config_hash: M5Jp6RsJg0SiKAhYTCQticII1v9cSgBvcbaE-Q5kqGQ
+id: cb_testimonial
+label: Testimonial
+revision: 0
+description: 'Show a quote of a customer with an optional small profile picture, name and function.'

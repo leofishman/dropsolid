@@ -1,0 +1,18 @@
+uuid: b70515b5-98dc-4b36-a806-18b2616dd234
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_usp
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: tKFyBz2qJ0Duf8vAJ231p-golBi2FdTx8KEDi46D73w
+id: block_content.block_usp
+target_entity_type_id: block_content
+target_bundle: block_usp
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,6 @@
+label: Contenido
+tags:
+  canonical_url: '[node:url]'
+  title: '[node:title] | [site:name]'
+  og_url: '[node:url]'
+  schema_article_is_accessible_for_free: Verdad

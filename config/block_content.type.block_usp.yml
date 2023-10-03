@@ -1,0 +1,10 @@
+uuid: 4a90a1d1-fdb6-495a-9b54-64fdd1da58dd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: WKpYzBLtWq_yXalRz1ssSHMsZguMNT7YSSqi8aYkYv0
+id: block_usp
+label: 'USP List'
+revision: 0
+description: ''

@@ -1,0 +1,12 @@
+uuid: 6fc7dfc0-c3a6-47fd-977b-2d13c197ede7
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: 0yLevjncOhO9p1pr8VqepY6c5yd5MuVu-vatoyGoTG0
+id: block_content.4_1_aspect_ratio
+label: '4:1 aspect ratio'
+targetEntityType: block_content
+cache: true

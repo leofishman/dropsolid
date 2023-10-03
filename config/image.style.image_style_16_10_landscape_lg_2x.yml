@@ -1,0 +1,20 @@
+uuid: 8bbc2b1c-5234-4e2e-965b-b9ca80db7c43
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: Whv-Obypf4NXhvCaaWjhZx86pJ6JGQZ9UlALxeGuCM8
+name: image_style_16_10_landscape_lg_2x
+label: '16:10 landscape lg [1200×750] 2x'
+effects:
+  a8e87ccd-d342-4146-9cc0-4f425f07369d:
+    uuid: a8e87ccd-d342-4146-9cc0-4f425f07369d
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2400
+      height: 1500
+      crop_type: focal_point
+pipeline: __default__

@@ -1,0 +1,45 @@
+uuid: 3f455352-1784-4760-8211-ceb713f70cc2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: XRwZ10wihfXms6vszI10PEzBzsPbycUyqiI3NfcgTw8
+id: rocketship_content_file_migrate
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rocketship_content_group
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/rocketship_content_file_migrate.csv
+  header_offset: 0
+  ids:
+    - uuid
+  constants:
+    source_base_path: /assets/files/
+    target_base_path: 'public://migrated_files/'
+process:
+  uuid: uuid
+  _source_full_path:
+    plugin: concat
+    source:
+      - constants/source_base_path
+      - filename
+  _destination_full_path:
+    plugin: concat
+    source:
+      - constants/target_base_path
+      - filename
+  uri:
+    plugin: file_copy
+    source:
+      - '@_source_full_path'
+      - '@_destination_full_path'
+    file_exists: rename
+destination:
+  plugin: 'entity:file'
+migration_dependencies:
+  required: {  }
+  optional: {  }

@@ -1,0 +1,15 @@
+uuid: c4797184-d323-4d68-9e3c-b5631253709d
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_image.svg
+_core:
+  default_config_hash: Y15-wh-gfudwdXfwQlR2tpW06yJJHxAWwjbdn07V7Es
+id: cb_image
+label: Image
+revision: 0
+description: 'Add an image to your section. The image can be stretched to break out of its container (or column) if needed.'

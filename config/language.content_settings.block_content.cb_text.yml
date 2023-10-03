@@ -1,0 +1,18 @@
+uuid: 4a579041-07d6-4953-8764-6a9d5abdf1f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_text
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: H2KQZfVX_L6hrodRjM1R8m--ZV6OEKHhNgKWP5z6ank
+id: block_content.cb_text
+target_entity_type_id: block_content
+target_bundle: cb_text
+default_langcode: current_interface
+language_alterable: false

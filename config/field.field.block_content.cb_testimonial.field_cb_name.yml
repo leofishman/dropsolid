@@ -1,0 +1,21 @@
+uuid: dbcb35a1-f5e9-4417-9af9-058472f4c48b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_testimonial
+    - field.storage.block_content.field_cb_name
+_core:
+  default_config_hash: ZD8U7pORYFHmQRt7hHWdARPaSt9QhOtNWDzCh7rc-PU
+id: block_content.cb_testimonial.field_cb_name
+field_name: field_cb_name
+entity_type: block_content
+bundle: cb_testimonial
+label: Name
+description: 'The name of the person giving this testimonial'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

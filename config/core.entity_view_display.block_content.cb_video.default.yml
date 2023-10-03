@@ -1,0 +1,28 @@
+uuid: fb5efafc-c7c2-4aec-aa6c-df3e6da70f31
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_video
+    - field.field.block_content.cb_video.field_cb_media
+    - field.field.block_content.cb_video.field_cb_media_layout
+_core:
+  default_config_hash: AqN0Yo0Gw5SNXMSxgk2ThiawLW1vKPg_YzP2BNKcgZY
+id: block_content.cb_video.default
+targetEntityType: block_content
+bundle: cb_video
+mode: default
+content:
+  field_cb_media:
+    weight: 0
+    label: hidden
+    settings:
+      view_mode: video
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+hidden:
+  field_cb_media_layout: true
+  langcode: true
+  search_api_excerpt: true

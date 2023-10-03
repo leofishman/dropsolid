@@ -1,0 +1,25 @@
+uuid: 238f70f9-f9cf-4b11-a291-82e2ea9cd4ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_faq
+    - field.storage.block_content.field_cb_button
+  module:
+    - link
+_core:
+  default_config_hash: E2JhwxyPHmrt62wydZx48ozT-DXTu-UB5O0l4nCL-ek
+id: block_content.cb_faq.field_cb_button
+field_name: field_cb_button
+entity_type: block_content
+bundle: cb_faq
+label: Button
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 2
+field_type: link

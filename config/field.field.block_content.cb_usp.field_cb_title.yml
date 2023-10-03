@@ -1,0 +1,21 @@
+uuid: 9e2489a4-8fe7-4cc8-9ba2-01f65c579159
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_usp
+    - field.storage.block_content.field_cb_title
+_core:
+  default_config_hash: IpqcRMYyI2ovRs1iXgr7QQTyPZVOHo_AjXyR-BCxMhQ
+id: block_content.cb_usp.field_cb_title
+field_name: field_cb_title
+entity_type: block_content
+bundle: cb_usp
+label: Title
+description: 'Display a title for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

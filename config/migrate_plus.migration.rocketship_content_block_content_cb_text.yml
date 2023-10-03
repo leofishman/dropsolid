@@ -1,0 +1,75 @@
+uuid: 64c8f14f-8d46-4fd6-a0c3-273259d00d3a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: rkQT9yfQMlGtzi8dSWxz6HlygnfZRYG852dnk0HQGVw
+id: rocketship_content_block_content_cb_text
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rocketship_content_group
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/rocketship_content_block_content_cb_text.csv
+  header_offset: 0
+  ids:
+    - uuid
+process:
+  uuid:
+    -
+      plugin: get
+      source: uuid
+  langcode:
+    -
+      plugin: callback
+      callable: rocketship_core_get_default_content_default_language
+  info:
+    -
+      plugin: get
+      source: info
+  reusable:
+    -
+      plugin: get
+      source: reusable
+  field_cb_button:
+    -
+      plugin: explode
+      source: field_cb_button
+      delimiter: '|'
+    -
+      plugin: explode
+      delimiter: '***'
+    -
+      plugin: sub_process
+      process:
+        title: '0'
+        uri: '1'
+  field_cb_teaser:
+    -
+      plugin: get
+      source: field_cb_teaser
+  field_cb_text/format:
+    -
+      plugin: get
+      source: field_cb_text_format
+  field_cb_text/value:
+    -
+      plugin: get
+      source: field_cb_text_value
+  field_cb_text_alignment:
+    -
+      plugin: get
+      source: field_cb_text_alignment
+  field_cb_title:
+    -
+      plugin: get
+      source: field_cb_title
+destination:
+  plugin: 'entity:block_content'
+  default_bundle: cb_text
+migration_dependencies:
+  required: {  }
+  optional: {  }

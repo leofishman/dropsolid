@@ -1,0 +1,9 @@
+content:
+  field_cb_extra_rule:
+    third_party_settings:
+      maxlength:
+        maxlength_js_label: 'Contenido limitado en @limit caracteres, quedan: <strong>@remaining</strong>'
+  field_cb_name:
+    third_party_settings:
+      maxlength:
+        maxlength_js_label: 'Contenido limitado en @limit caracteres, quedan: <strong>@remaining</strong>'

@@ -1,0 +1,21 @@
+uuid: 50bf7a24-9272-4b39-80f7-26b38bd56452
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_menu_overview
+    - field.storage.block_content.field_cb_title
+_core:
+  default_config_hash: DXWWqr4euSVzKr9OYa0RC0l-MWSfNdLrJS9lhpQC_Qo
+id: block_content.cb_menu_overview.field_cb_title
+field_name: field_cb_title
+entity_type: block_content
+bundle: cb_menu_overview
+label: Title
+description: 'Display a title for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

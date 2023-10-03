@@ -1,0 +1,10 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        layout_settings:
+          label: Contenido
+        components:
+          645ad69d-5171-4d78-aaf0-984f8a3de357:
+            configuration:
+              label: Imagen

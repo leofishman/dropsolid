@@ -1,0 +1,13 @@
+{
+  "patches": {
+    "drupal/core": {
+      "CUSTOM - Change title to label for inline blocks and other UX improvements": "etc/patches/drupal/core/custom-inlineblocklabelux.patch",
+      "CUSTOM - Block fallback preview change": "etc/patches/drupal/core/custom-layout_builder.ui.patch",
+      "CUSTOM - Hide profiles": "etc/patches/drupal/core/custom-hide-install-profiles.patch",
+      "CUSTOM - Lock langauge during installation": "etc/patches/drupal/core/custom-install-language-selector.patch"
+    },
+    "topfloor/composer-cleanup-vcs-dirs": {
+      "Allow excludes": "https://patch-diff.githubusercontent.com/raw/VolantisDev/composer-cleanup-vcs-dirs/pull/4.diff"
+    }
+  }
+}

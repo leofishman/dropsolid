@@ -1,0 +1,18 @@
+uuid: b14c6bc7-cab6-422b-9de6-6966235bf4d3
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: SK03dp-kHDYDDgC-jqnLpU7BfOqkfEVtU4sY0lDuUUU
+name: thumbnail_2x
+label: 'Thumbnail (100×100) 2x'
+effects:
+  9fe40280-347d-486e-8f04-973880c25925:
+    uuid: 9fe40280-347d-486e-8f04-973880c25925
+    id: image_scale
+    weight: 1
+    data:
+      width: 200
+      height: 200
+      upscale: false
+pipeline: __default__

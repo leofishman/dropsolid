@@ -1,0 +1,68 @@
+uuid: f7f6923b-f41f-4fba-b087-537b3c5f9613
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 29ta4PJhfSfpuh_1M76dWLs-0LXVR2VKdUz6btlPqoA
+id: rocketship_content_node_page
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rocketship_content_group
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/rocketship_content_node_page.csv
+  header_offset: 0
+  ids:
+    - uuid
+process:
+  uuid:
+    -
+      plugin: get
+      source: uuid
+  langcode:
+    -
+      plugin: callback
+      callable: rocketship_core_get_default_content_default_language
+  status:
+    -
+      plugin: get
+      source: status
+  title:
+    -
+      plugin: get
+      source: title
+  promote:
+    -
+      plugin: get
+      source: promote
+  field_description:
+    -
+      plugin: get
+      source: field_description
+  field_media_canonical_image/target_id:
+    -
+      plugin: migration_lookup
+      migration:
+        - rocketship_content_media_image
+      source: field_media_canonical_image
+  layout_builder__layout:
+    -
+      plugin: callback
+      source: layout_builder__layout
+      callable: base64_decode
+    -
+      plugin: explode
+      delimiter: '|'
+    -
+      plugin: callback
+      callable: unserialize
+destination:
+  plugin: 'entity:node'
+  default_bundle: page
+migration_dependencies:
+  required:
+    - rocketship_content_media_image
+  optional: {  }

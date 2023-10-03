@@ -1,0 +1,25 @@
+uuid: 82f81abf-0922-4f27-98a8-4263970fbd4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_media
+    - field.storage.block_content.field_social_link_facebook
+  module:
+    - link
+_core:
+  default_config_hash: XCmQpygLtwWrnADfXXjEU6WqHl6eL6aLqDNXWoUbfe4
+id: block_content.social_media.field_social_link_facebook
+field_name: field_social_link_facebook
+entity_type: block_content
+bundle: social_media
+label: Facebook
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 0
+field_type: link

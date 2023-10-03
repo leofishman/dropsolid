@@ -1,0 +1,22 @@
+uuid: 3f2bd3ab-6c46-4ea5-95f1-64e7ada5d07f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - media
+_core:
+  default_config_hash: x4foI5PfUbZ3YJbI7u6dADnOhVwt6dXy_8Pl-2Lt7B8
+id: block_content.field_cb_media_unlimited
+field_name: field_cb_media_unlimited
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

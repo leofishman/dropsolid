@@ -1,0 +1,9 @@
+_core:
+  default_config_hash: fazZnMdDS-DChaA37At6dJosKQkTbRhI7RR2hN1qJbk
+plugin_config:
+  entity_view_mode_restriction:
+    weight: 1
+    enabled: false
+  restriction_by_role:
+    weight: 1
+    enabled: true

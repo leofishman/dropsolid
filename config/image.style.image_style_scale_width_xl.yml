@@ -1,0 +1,18 @@
+uuid: f7cf691c-beb7-455e-8916-86d96a0513c2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: y9gVpza7_fJejoXjhfvarwOUEkCwVNnklXfER_X129c
+name: image_style_scale_width_xl
+label: 'Scale width xl [1920]'
+effects:
+  db47c61b-7a09-4c47-8452-5baf8d7c110b:
+    uuid: db47c61b-7a09-4c47-8452-5baf8d7c110b
+    id: image_scale
+    weight: 1
+    data:
+      width: 1920
+      height: null
+      upscale: false
+pipeline: __default__

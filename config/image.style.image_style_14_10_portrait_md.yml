@@ -1,0 +1,20 @@
+uuid: 3ffe86ff-02fe-48ea-a1d2-3560317689e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: ekDwAzCg8oh8H093CaCUT2XYzK23ARZlKWkChiwn5_g
+name: image_style_14_10_portrait_md
+label: '14:10 portrait md [1024×1434]'
+effects:
+  6f837f4a-06f6-4ca0-b31e-48261545e5e1:
+    uuid: 6f837f4a-06f6-4ca0-b31e-48261545e5e1
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 1434
+      crop_type: focal_point
+pipeline: __default__

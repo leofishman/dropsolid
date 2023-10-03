@@ -1,0 +1,20 @@
+uuid: 4a4e50ca-bae7-4826-bcc3-1c125f130876
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: ilWyxqHbZlH-fds2zf9ls0pYWTcWbawQi_REVhNZsHY
+name: image_style_16_9_landscape_xl
+label: '16:9 landscape xl [1920×1080]'
+effects:
+  0c8caa95-4cdc-4c8d-8a64-cebcece4b938:
+    uuid: 0c8caa95-4cdc-4c8d-8a64-cebcece4b938
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      crop_type: focal_point
+pipeline: __default__

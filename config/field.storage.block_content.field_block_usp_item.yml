@@ -1,0 +1,23 @@
+uuid: cb5103d4-050e-4474-9b6f-29ec5696651d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - rocketship_core
+_core:
+  default_config_hash: JFZM9Lm-Td_ncVrQcttwrs5b2kb7BwRIP3WtS5ODSAU
+id: block_content.field_block_usp_item
+field_name: field_block_usp_item
+entity_type: block_content
+type: title_description_field
+settings:
+  max_length: '1024'
+  is_ascii: false
+module: rocketship_core
+locked: false
+cardinality: 3
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

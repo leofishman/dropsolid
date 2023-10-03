@@ -1,0 +1,23 @@
+uuid: 2ce7be88-1b9e-48b6-a40e-cdcd8f4e5aa6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_menu_overview
+    - field.storage.block_content.field_cb_menu_overview
+  module:
+    - menu_clickthrough
+_core:
+  default_config_hash: CxK5jxxe-5ZxDkRsWKKg51p3Dqcv9MbM62h0DCFiUVE
+id: block_content.cb_menu_overview.field_cb_menu_overview
+field_name: field_cb_menu_overview
+entity_type: block_content
+bundle: cb_menu_overview
+label: 'Menu overview'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: clickthrough_field_type

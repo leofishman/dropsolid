@@ -1,0 +1,44 @@
+uuid: cdc02e1c-7997-4611-9b49-31a4e56a8e49
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: fFLAphfl-HYmW35wzdK_CSfiCIGiU-_Efjap6pq_mXA
+id: rocketship_content_media_image
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: rocketship_content_group
+label: null
+source:
+  plugin: csv
+  path: /assets/csv/rocketship_content_media_image.csv
+  header_offset: 0
+  ids:
+    - uuid
+process:
+  uuid:
+    -
+      plugin: get
+      source: uuid
+  langcode:
+    -
+      plugin: callback
+      callable: rocketship_core_get_default_content_default_language
+  name:
+    -
+      plugin: get
+      source: name
+  field_media_image/target_id:
+    -
+      plugin: migration_lookup
+      migration: rocketship_content_file_migrate
+      source: field_media_image
+destination:
+  plugin: 'entity:media'
+  default_bundle: image
+migration_dependencies:
+  required:
+    - rocketship_content_file_migrate
+  optional: {  }

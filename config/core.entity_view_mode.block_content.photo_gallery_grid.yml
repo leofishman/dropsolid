@@ -1,0 +1,12 @@
+uuid: bc5099f3-652d-47ea-b4db-94c0870384e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: DSDgzfwq7jeLNRFNCQZ0u4xxAaD1Qx47Fw74tp_aLYM
+id: block_content.photo_gallery_grid
+label: Grid
+targetEntityType: block_content
+cache: true

@@ -1,0 +1,21 @@
+uuid: 57cb50e8-8d3d-4b56-a4cf-2f97f3aa363a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_related_items
+    - field.storage.block_content.field_cb_teaser
+_core:
+  default_config_hash: 6gfoq9JasGHPmtC76uKgepQ6-JZZggdIuMAY2miU7Cw
+id: block_content.cb_related_items.field_cb_teaser
+field_name: field_cb_teaser
+entity_type: block_content
+bundle: cb_related_items
+label: Teaser
+description: 'Display a short descriptive text, as an intro.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

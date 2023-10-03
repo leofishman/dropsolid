@@ -1,0 +1,15 @@
+uuid: 12b34438-87b6-48d9-bbf8-ae15f5c88fde
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_usp.svg
+_core:
+  default_config_hash: E1hF2sJd7jjD43IQnPNb_kzKIIM5qDaaYqZ8hznw460
+id: cb_usp
+label: USP
+revision: 0
+description: 'Add blocks of this type to your section, to construct a list of the strong points of your company, product or service.'

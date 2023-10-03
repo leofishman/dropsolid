@@ -1,0 +1,11 @@
+label: Global
+tags:
+  title: '[current-page:title] | [site:name]'
+  mobileoptimized: ancho
+  apple_mobile_web_app_capable: sí
+  og_site_name: '[site:name]'
+  og_title: '[current-page:title] | [site:name]'
+  twitter_cards_title: '[current-page:title] | [site:name]'
+  twitter_cards_type: resumen
+  schema_web_site_url: '[site:url]'
+  schema_web_site_name: '[site:name]'

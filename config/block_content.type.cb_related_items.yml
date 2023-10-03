@@ -1,0 +1,15 @@
+uuid: 9af51b87-c030-4df6-bb56-a024d743d5b0
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_related_items.svg
+_core:
+  default_config_hash: 2N3uMW_BQdLDXBzjrazgjdyPOeaM4wCEMgqP2kTktCM
+id: cb_related_items
+label: 'Related Items'
+revision: 0
+description: "Select other pages that are related to this one, and they'll be shown in a visually interesting list."

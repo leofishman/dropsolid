@@ -1,0 +1,22 @@
+uuid: c8d2d624-844b-4824-8df4-9ba024c96cc3
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - webform
+_core:
+  default_config_hash: Qpjsm_Pv1b5-Z18p_rghUg3zNAOFiSdYV-6i9NqqiyQ
+id: block_content.field_cb_webform
+field_name: field_cb_webform
+entity_type: block_content
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

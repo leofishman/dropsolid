@@ -1,0 +1,20 @@
+uuid: 81492a2e-d663-4ea7-b11f-432262467337
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: OwsvxkC-rwaT4Pse3Zg97AgkkQrOu5FShfvuxefcPrM
+name: image_style_1_2_landscape_lg
+label: '1:2 landscape lg [1200x600]'
+effects:
+  4cb1c5a7-f5ba-4295-b48e-fa0970633051:
+    uuid: 4cb1c5a7-f5ba-4295-b48e-fa0970633051
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1200
+      height: 600
+      crop_type: focal_point
+pipeline: __default__

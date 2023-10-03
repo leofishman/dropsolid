@@ -1,0 +1,24 @@
+uuid: 8865ddbd-5b4b-474f-af02-431539c0a725
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_testimonial
+    - field.storage.block_content.field_cb_text
+  module:
+    - text
+_core:
+  default_config_hash: j9wdBq-XpUnuVBUozLcomS2zqO32EGI3vB-CVv_TtE0
+id: block_content.cb_testimonial.field_cb_text
+field_name: field_cb_text
+entity_type: block_content
+bundle: cb_testimonial
+label: Text
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

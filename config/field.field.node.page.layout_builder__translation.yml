@@ -1,0 +1,23 @@
+uuid: ac348563-e087-4a41-a356-418b9843550d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__translation
+    - node.type.page
+  module:
+    - layout_builder
+_core:
+  default_config_hash: fnr3q3nWNdI9qELzlRxhmOa_9mGqVWfQbApSgLJ0NcI
+id: node.page.layout_builder__translation
+field_name: layout_builder__translation
+entity_type: node
+bundle: page
+label: 'Layout Labels'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_translation

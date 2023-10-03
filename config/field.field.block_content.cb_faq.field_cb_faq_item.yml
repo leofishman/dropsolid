@@ -1,0 +1,23 @@
+uuid: bb2c0ed0-668d-41f6-8b25-72e95665b1a1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_faq
+    - field.storage.block_content.field_cb_faq_item
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: 02yXokBFXoxDZzpnQCA3zSU8vXpS7rjuJmhN4QQG5eY
+id: block_content.cb_faq.field_cb_faq_item
+field_name: field_cb_faq_item
+entity_type: block_content
+bundle: cb_faq
+label: 'FAQ Item'
+description: 'Add one or more questions. Use the item Title field as the question and the Body field for the answer.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: tabbed_item

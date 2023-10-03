@@ -1,0 +1,20 @@
+uuid: f22cfd4e-5767-4edd-a94f-cd130fb63df8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.page
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+_core:
+  default_config_hash: nVYrL5tMu4hsbWPo6hny6z_Rgf9p3fKe-5dIg8RlO1A
+id: node.page
+target_entity_type_id: node
+target_bundle: page
+default_langcode: current_interface
+language_alterable: false

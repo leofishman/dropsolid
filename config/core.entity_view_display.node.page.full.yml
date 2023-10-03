@@ -1,0 +1,98 @@
+uuid: e3804a69-8be0-48b4-ae12-4f0b5530a57c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_title
+    - core.entity_view_mode.node.full
+    - field.field.node.page.field_description
+    - field.field.node.page.field_media_canonical_image
+    - field.field.node.page.field_meta_tags
+    - field.field.node.page.field_page_display_canonical
+    - field.field.node.page.layout_builder__layout
+    - field.field.node.page.layout_builder__translation
+    - node.type.page
+  module:
+    - layout_builder
+    - rocketship_core
+    - system
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: rs_one_col
+        layout_settings:
+          label: 'Simple Header'
+          classes: cb-header
+          bem-modifier: ''
+          id: null
+          minimal_styling: 0
+          top_layout_spacing: 1x
+          bottom_layout_spacing: 1x
+          background_image: null
+          background_color: grey
+          backgrounds_full: 1
+          with_subregion: 1
+          with_subregion_02: 0
+          subregion_position: after
+          subregion_02_position: after
+          section_purpose: header
+          context_mapping: {  }
+        components:
+          b775da35-c305-4b13-a17c-35edddbc3cec:
+            uuid: b775da35-c305-4b13-a17c-35edddbc3cec
+            region: subregion
+            configuration:
+              id: system_breadcrumb_block
+              label: Breadcrumbs
+              provider: system
+              label_display: '0'
+              context_mapping: {  }
+            weight: 2
+            additional: {  }
+          3b4ab648-457a-4550-b5f8-d86d7a1c6205:
+            uuid: 3b4ab648-457a-4550-b5f8-d86d7a1c6205
+            region: content
+            configuration:
+              id: 'inline_block:cb_title'
+              label: 'Simple Title'
+              label_display: ''
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '3'
+              block_serialized: null
+              context_mapping: {  }
+              block_uuid: 84931da0-7153-49d4-b672-7d965191f4e9
+            weight: 2
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              2: 2
+              3: 3
+              4: 4
+              6: 6
+              8: 8
+_core:
+  default_config_hash: 7VWjFUo4gpS5D8iV2I4cggRy4ZB7-joQt88lETOQ9WI
+id: node.page.full
+targetEntityType: node
+bundle: page
+mode: full
+content: {  }
+hidden:
+  created: true
+  field_description: true
+  field_media_canonical_image: true
+  field_meta_tags: true
+  field_page_display_canonical: true
+  langcode: true
+  layout_builder__layout: true
+  layout_builder__translation: true
+  links: true
+  rocketship_social_widgets: true
+  search_api_excerpt: true
+  title: true
+  uid: true

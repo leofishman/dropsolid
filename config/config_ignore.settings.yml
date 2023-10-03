@@ -1,0 +1,12 @@
+_core:
+  default_config_hash: jyrTBkxXK5QsDGeQHfdfmRbhbh_5PSsUlO7RMACrwac
+ignored_config_entities:
+  - 'webform.*'
+  - simple_sitemap.settings
+  - 'system.action.webform_*'
+  - simple_sitemap.custom_links.default
+  - simple_recaptcha.config
+  - 'google_tag*'
+  - geofield_map.settings
+  - geocoder.settings
+ignored_config_collections: {  }

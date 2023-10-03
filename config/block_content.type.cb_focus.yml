@@ -1,0 +1,15 @@
+uuid: 6adc19e1-9073-4beb-a306-1323f4b5bd91
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_focus.svg
+_core:
+  default_config_hash: d0w-TqGckhD1s6AXpEDBy0osgDSZmd3VhZl9Y5_sgtI
+id: cb_focus
+label: Focus
+revision: 0
+description: 'Add a block with a striking look-and-feel, with a clear call-to-action to boot. Ideal for content you want to emphasize.'

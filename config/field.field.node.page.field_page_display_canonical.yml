@@ -1,0 +1,23 @@
+uuid: c46e77eb-2d01-46ef-b1b7-3e94d60e687c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_page_display_canonical
+    - node.type.page
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: 48jG5jK3qWQNYCCfGxYTvyhKCUkG12vSvoNqNkBSFtQ
+id: node.page.field_page_display_canonical
+field_name: field_page_display_canonical
+entity_type: node
+bundle: page
+label: 'Display: Canonical'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: rs_display_field

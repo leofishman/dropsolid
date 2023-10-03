@@ -1,0 +1,36 @@
+uuid: 9c81be09-4b91-4709-ae23-c0f0dc58540b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wLV1K41HNMWLw_5VsofXJcEXtizw3my-rEpqUfxybPo
+id: dev
+label: Dev
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/splits/dev
+module:
+  dblog: 0
+  devel: 0
+  devel_generate: 0
+  devel_php: 0
+  dropsolid_purge: 0
+  memcache: 0
+  purge: 0
+  purge_drush: 0
+  purge_processor_cron: 0
+  purge_processor_lateruntime: 0
+  purge_queuer_coretags: 0
+  reroute_email: 0
+  twig_xdebug: 0
+  views_ui: 0
+theme: {  }
+complete_list:
+  - environment_indicator.indicator
+  - environment_indicator.settings
+  - minifyhtml.config
+  - system.logging
+  - system.performance
+partial_list: {  }

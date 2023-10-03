@@ -1,0 +1,18 @@
+uuid: e1037488-52bf-42fd-80e6-2bcedcc22c5c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Vb4-kqRI38DonerDJI6WK5_ipT49wUoQTVdcipA6vo8
+name: social_large
+label: 'Social Large'
+effects:
+  7ad6b2fb-fbee-4a99-a3ea-50eee3d79ad1:
+    uuid: 7ad6b2fb-fbee-4a99-a3ea-50eee3d79ad1
+    id: image_scale
+    weight: 1
+    data:
+      width: 460
+      height: 460
+      upscale: false
+pipeline: __default__

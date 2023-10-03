@@ -1,0 +1,12 @@
+uuid: e0cd379d-dd02-47d8-9e1d-7c9763a6857a
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cCzL6eZZ0xLetTk4MsmMORKvXJr0F348yqsw_AoDIZo
+id: rs_blocks_templating
+label: 'RS Blocks - Template Migrates'
+description: 'Migrates Section Library templates'
+source_type: ''
+module: null
+shared_configuration: null

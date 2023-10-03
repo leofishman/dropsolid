@@ -1,0 +1,15 @@
+uuid: f204e415-3482-41c4-a203-c522ab557eb0
+langcode: en
+status: true
+dependencies:
+  module:
+    - rocketship_blocks
+third_party_settings:
+  rocketship_blocks:
+    icon_path: /modules/contrib/rocketship_core/modules/rocketship_blocks/assets/images/cb_video.svg
+_core:
+  default_config_hash: A5SIZw3d1Yl683ZYcNDl0_CiGzY6MqsYbyNvq4WDHW8
+id: cb_video
+label: Video
+revision: 0
+description: 'Integrate a YouTube or Vimeo video on your page.'

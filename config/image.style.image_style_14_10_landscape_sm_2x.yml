@@ -1,0 +1,20 @@
+uuid: 795a26f7-e7c7-4673-ba80-707066e51cea
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: IAb8VUOJfQ24CWpOxWeSDUjsZNzxhwT1TitqsnVuFe8
+name: image_style_14_10_landscape_sm_2x
+label: '14:10 landscape sm [768×549] 2x'
+effects:
+  871251f5-624d-482e-868b-9dc07569a005:
+    uuid: 871251f5-624d-482e-868b-9dc07569a005
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1536
+      height: 1098
+      crop_type: focal_point
+pipeline: __default__

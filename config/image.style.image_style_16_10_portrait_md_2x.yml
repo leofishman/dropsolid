@@ -1,0 +1,20 @@
+uuid: 2117dad0-3479-41cb-a89b-30384a8f4eff
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: vdxk9Cz3JVE9lTxloBCwXOlgYKHpN7YYq8AdGP5Nba8
+name: image_style_16_10_portrait_md_2x
+label: '16:10 portrait md [1024×1639] 2x'
+effects:
+  55efbf47-5531-40fe-8ce3-c72694ad3046:
+    uuid: 55efbf47-5531-40fe-8ce3-c72694ad3046
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 2048
+      height: 3278
+      crop_type: focal_point
+pipeline: __default__

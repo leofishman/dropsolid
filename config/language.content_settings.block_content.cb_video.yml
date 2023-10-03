@@ -1,0 +1,18 @@
+uuid: f434a10d-ce47-4e64-a9ec-058a2d20b425
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_video
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+_core:
+  default_config_hash: tKapvlgTtPhUMgUlpSeEcX6cjWMQBTesXllo9ayFZ58
+id: block_content.cb_video
+target_entity_type_id: block_content
+target_bundle: cb_video
+default_langcode: current_interface
+language_alterable: false

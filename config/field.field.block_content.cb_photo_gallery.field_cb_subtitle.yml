@@ -1,0 +1,21 @@
+uuid: 7ca31504-9484-4eec-9e1e-0ebc71a8ce40
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.cb_photo_gallery
+    - field.storage.block_content.field_cb_subtitle
+_core:
+  default_config_hash: suH0h4GT4VXLsO-NLnzrZRivXbYLn9D-MGE4AUjHdcU
+id: block_content.cb_photo_gallery.field_cb_subtitle
+field_name: field_cb_subtitle
+entity_type: block_content
+bundle: cb_photo_gallery
+label: Subtitle
+description: 'Display a subtitle for the Block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

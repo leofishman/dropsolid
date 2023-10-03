@@ -1,0 +1,20 @@
+uuid: d22eea11-fd06-43a8-a5e5-076b3e8ab1d1
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: TBN_-pauCpaR3iXXBKqsZfWNmOjHkEG3PZkbin5wbgc
+name: image_style_1_1_square_sm
+label: '1:1 square sm [768×768]'
+effects:
+  f69a5cbd-27e4-424c-a062-6d4cca76fc3c:
+    uuid: f69a5cbd-27e4-424c-a062-6d4cca76fc3c
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 768
+      height: 768
+      crop_type: focal_point
+pipeline: __default__

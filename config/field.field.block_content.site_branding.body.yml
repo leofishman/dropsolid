@@ -1,0 +1,26 @@
+uuid: cbe0305f-4f6b-4113-8c91-41b6091e88df
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_branding
+    - field.storage.block_content.body
+  module:
+    - text
+_core:
+  default_config_hash: suyEPti3Ij_XRBmKeP59L2VmV2g8gMd944edhhvd_Y4
+id: block_content.site_branding.body
+field_name: body
+entity_type: block_content
+bundle: site_branding
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

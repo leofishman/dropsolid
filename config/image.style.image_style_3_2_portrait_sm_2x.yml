@@ -1,0 +1,20 @@
+uuid: c6ddd1f7-8077-4010-affd-81d5bba2e1c1
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: hx19FZn4DuIRhWAmDdRJEsljwVg3qOWQJv8S6_Ytb20
+name: image_style_3_2_portrait_sm_2x
+label: '3:2 portrait sm [768×1152] 2x'
+effects:
+  85d498c8-d3ef-4560-a799-1374f4795500:
+    uuid: 85d498c8-d3ef-4560-a799-1374f4795500
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 1536
+      height: 2304
+      crop_type: focal_point
+pipeline: __default__

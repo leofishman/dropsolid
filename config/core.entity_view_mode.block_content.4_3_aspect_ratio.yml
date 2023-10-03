@@ -1,0 +1,12 @@
+uuid: 80f092a7-1113-4f19-96d8-63820dcb9a6d
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: 7P_RqN5ms_K3blkS_X86PiduczZczm69VsJSmqROGfw
+id: block_content.4_3_aspect_ratio
+label: '4:3 aspect ratio'
+targetEntityType: block_content
+cache: true

@@ -1,0 +1,31 @@
+uuid: b0a8bc05-5614-42a5-949c-1f96fef5214b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.media.embed
+    - field.field.media.file.field_media_file
+    - media.type.file
+  module:
+    - rocketship_core
+_core:
+  default_config_hash: 17u4TgaECP14WaS-_JdCMrP3AReyisPkIBej1Se3zyQ
+id: media.file.embed
+targetEntityType: media
+bundle: file
+mode: embed
+content:
+  field_media_file:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: media_generic_file_formatter
+    region: content
+hidden:
+  created: true
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  thumbnail: true
+  uid: true

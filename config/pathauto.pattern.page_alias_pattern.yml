@@ -1,0 +1,24 @@
+uuid: 843ee532-2496-4e61-9f24-5df8397ea795
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: RabW1F8J4BdWlUqra2TesK8sPtYt2WXStYl65WHuyZU
+id: page_alias_pattern
+label: 'Page alias pattern'
+type: 'canonical_entities:node'
+pattern: '[node:menu-link:parent-alias]/[node:title]'
+selection_criteria:
+  94e8f649-b52a-4c51-999f-a4cdfd651204:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 94e8f649-b52a-4c51-999f-a4cdfd651204
+    context_mapping:
+      node: node
+    bundles:
+      page: page
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,20 @@
+uuid: b5b5de66-08b3-4c2f-b35e-a1000f91e5fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+_core:
+  default_config_hash: pPlQ_z36s7XwfjkScSff746-HEcR6wKS7FCWKKIQIeg
+name: image_style_1_1_square_xs_wide_2x
+label: '1:1 square xs wide [480×480] 2x'
+effects:
+  a148599b-c252-4199-8dd2-4c3902dce598:
+    uuid: a148599b-c252-4199-8dd2-4c3902dce598
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 960
+      height: 960
+      crop_type: focal_point
+pipeline: __default__

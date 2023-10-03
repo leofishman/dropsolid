@@ -1,0 +1,8 @@
+third_party_settings:
+  layout_builder:
+    sections:
+      -
+        components:
+          b775da35-c305-4b13-a17c-35edddbc3cec:
+            configuration:
+              label: 'Enlaces de ayuda a la navegación'

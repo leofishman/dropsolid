@@ -1,0 +1,64 @@
+display:
+  default:
+    display_title: Máster
+    display_options:
+      exposed_form:
+        options:
+          submit_button: Filtro
+          reset_button_label: Restablecer
+          exposed_sorts_label: 'Ordenar por'
+          sort_asc_label: Asc
+          sort_desc_label: Desc
+      pager:
+        options:
+          tags:
+            previous: ‹‹
+            next: ››
+            first: '« Primero'
+            last: 'Último »'
+          expose:
+            items_per_page_label: 'Elementos por página'
+            items_per_page_options_all_label: '- Todo -'
+            offset_label: Desplazamiento
+      fields:
+        id:
+          label: ID
+          separator: ', '
+        image__target_id:
+          label: Imagen
+          separator: ', '
+        label:
+          label: Etiqueta
+          separator: ', '
+        type:
+          label: Tipo
+          separator: ', '
+        entity_id:
+          separator: ', '
+        created:
+          label: Creado
+          separator: ', '
+        changed:
+          label: Modificado
+          separator: ', '
+        user_id:
+          label: 'Escrito por'
+          separator: ', '
+        operations:
+          label: 'Enlaces de operación'
+      filters:
+        label:
+          expose:
+            label: Etiqueta
+        type:
+          expose:
+            label: Tipo
+          group_info:
+            label: Tipo
+            group_items:
+              1:
+                title: Sección
+              2:
+                title: Plantilla
+  page_section_library:
+    display_title: Página

@@ -1,0 +1,23 @@
+uuid: fdcaf24b-8ae0-4e29-aaa4-49fb401210b3
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - filter
+    - system
+    - userprotect
+_core:
+  default_config_hash: P8gCczh6piK3B867sxiAnL8O_KlcWniOJ4m3nPr2mCM
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access user profiles'
+  - 'use text format restricted_html'
+  - userprotect.account.edit
+  - userprotect.mail.edit
+  - userprotect.pass.edit

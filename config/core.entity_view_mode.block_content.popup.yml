@@ -1,0 +1,12 @@
+uuid: a9cc3413-1aeb-4cff-9e25-8bfb8b973dcf
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+_core:
+  default_config_hash: cQWGtmkT4pG6Sw14piQaaPH1hgjCr-WY0lqijFzYQzU
+id: block_content.popup
+label: Popup
+targetEntityType: block_content
+cache: true

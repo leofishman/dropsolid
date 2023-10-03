@@ -1,0 +1,10 @@
+uuid: 735a9b8c-b99c-45be-b5bd-e47e1ffe7422
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: OP-i_4Bf2tgDUOtsCLInFbL4SlHjsday2T0M0Z4agWU
+id: site_branding
+label: 'Site branding'
+revision: 0
+description: ''

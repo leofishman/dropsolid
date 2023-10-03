@@ -1,0 +1,18 @@
+uuid: ed107f37-57cc-4a17-82e5-3bcc14cc80b2
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: d3FtdVfjLE29KgtRWg_G3NB0ym4qElSuQ4RYnxi0JCk
+name: image_style_scale_width_lg
+label: 'Scale width lg [1200]'
+effects:
+  e564f86e-c4ac-4c87-a079-96061d1baea5:
+    uuid: e564f86e-c4ac-4c87-a079-96061d1baea5
+    id: image_scale
+    weight: 1
+    data:
+      width: 1200
+      height: null
+      upscale: false
+pipeline: __default__
