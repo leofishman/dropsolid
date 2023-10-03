@@ -1,0 +1,14 @@
+name: Simple Google reCaptcha - Webform integration
+type: module
+description: Provides Simple Google reCaptcha webform handler.
+core_version_requirement: ^8.7.7 || ^9 || ^10
+package: Spam control
+configure: simple_recaptcha.settings
+dependencies:
+  - simple_recaptcha:simple_recaptcha
+  - webform:webform
+
+# Information added by Drupal.org packaging script on 2023-03-08
+version: '8.x-1.0-beta8'
+project: 'simple_recaptcha'
+datestamp: 1678286835

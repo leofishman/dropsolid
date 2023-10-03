@@ -1,0 +1,14 @@
+name: 'Simple Google reCaptcha - Webform integration test'
+type: module
+description: 'Support module for simple recaptcha webform testing.'
+package: 'Simple reCAPTCHA testing'
+core_version_requirement: ^8.8 || ^9 || ^10
+dependencies:
+  - 'simple_recaptcha:simple_recaptcha'
+  - 'webform:webform'
+  - 'webform:webform_ui'
+
+# Information added by Drupal.org packaging script on 2023-03-08
+version: '8.x-1.0-beta8'
+project: 'simple_recaptcha'
+datestamp: 1678286835

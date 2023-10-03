@@ -1,0 +1,13 @@
+name: Layout Builder Restrictions By Role
+core_version_requirement: ^8 || ^9 || ^10
+description: 'Restrict layouts and blocks per role'
+type: module
+package: 'Layout Builder'
+dependencies:
+  - layout_builder_restrictions:layout_builder_restrictions
+
+
+# Information added by Drupal.org packaging script on 2023-04-26
+version: '1.0.0-alpha5'
+project: 'layout_builder_restrictions_by_role'
+datestamp: 1682524223

@@ -1,0 +1,6 @@
+services:
+  path_processor.drimage:
+    class: Drupal\drimage\PathProcessor\PathProcessorImageStyles
+    arguments: [ '@stream_wrapper_manager' ]
+    tags:
+      - { name: path_processor_inbound, priority: 299 }

@@ -1,0 +1,8 @@
+# Schema for the configuration files of the Node Keep module.
+node_keep.settings:
+  type: config_object
+  label: 'Node Keep settings'
+  mapping:
+    hide_warning_messages:
+      type: boolean
+      label: 'Hide warning messages'
