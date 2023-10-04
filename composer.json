@@ -26,6 +26,7 @@
         "drupal/dropsolid_rocketship_profile": "^6.1",
         "drupal/rocketship_theme_generator": "^4.0",
         "drush/drush": "^11",
+        "enshrined/svg-sanitize": "^0.16.0",
         "harvesthq/chosen": "1.8.7",
         "imakewebthings/waypoints": "^4.0.1",
         "jackmoore/colorbox": "^1.6",

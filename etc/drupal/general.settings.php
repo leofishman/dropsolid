@@ -1,6 +1,6 @@
 <?php
 
-define('ROCKETSHIP_PROJECT_NAME', FALSE);
+define('ROCKETSHIP_PROJECT_NAME', 'Dropsolid');
 
 // Ignore front-end folders.
 $settings['file_scan_ignore_directories'] = [

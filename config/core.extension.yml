@@ -6,6 +6,7 @@ module:
   admin_toolbar_links_access_filter: 0
   admin_toolbar_tools: 0
   blazy: 0
+  blazy_ui: 0
   block: 0
   block_content: 0
   block_content_permissions: 0
@@ -119,6 +120,7 @@ module:
   simple_recaptcha: 0
   simple_sitemap: 0
   slick: 0
+  slick_ui: 0
   smart_trim: 0
   symfony_mailer: 0
   syslog: 0

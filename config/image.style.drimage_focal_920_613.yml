@@ -1,0 +1,19 @@
+uuid: 462316d8-2fcf-4955-a103-c85e89cd9b37
+langcode: en
+status: true
+dependencies:
+  module:
+    - focal_point
+name: drimage_focal_920_613
+label: drimage_focal_920_613
+effects:
+  aa698ec5-b073-4969-b5d4-3ec2c71272db:
+    uuid: aa698ec5-b073-4969-b5d4-3ec2c71272db
+    id: focal_point_scale_and_crop
+    weight: 1
+    data:
+      width: 920
+      height: 613
+      crop_type: focal_point
+      upscale: false
+pipeline: __default__

@@ -1,6 +1,9 @@
 enable: true
+address: leofishman@gmail.com
+roles: {  }
+allowed: ''
 description: false
 message: false
 mailkeys: ''
-address: sites@example.com
+mailkeys_skip: ''
 whitelist: ''
