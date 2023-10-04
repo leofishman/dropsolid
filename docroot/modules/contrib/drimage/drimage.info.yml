@@ -6,7 +6,7 @@ dependencies:
   - drupal:image
 configure: drimage.settings
 
-# Information added by Drupal.org packaging script on 2023-09-13
-version: '2.2.5'
+# Information added by Drupal.org packaging script on 2023-09-26
+version: '2.2.6'
 project: 'drimage'
-datestamp: 1694611198
+datestamp: 1695724198

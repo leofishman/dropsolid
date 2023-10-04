@@ -149,7 +149,7 @@ function reroute_email_mail_alter(&$message) {
 
   // Extensive params keys cause OOM error when outputting the value.
   // But we need to keep 'params' (e.g. attachments).
-  $params = $message['params'];
+  $params = $message['params'] ?? [];
   unset($message['params']);
 
   // Simplify subject to avoid OOM error in the variable output.

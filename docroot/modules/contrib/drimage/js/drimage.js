@@ -217,7 +217,7 @@
 
             var imgUrl = data.subdir + '/drimage/' + size[0] + '/' + size[1] + '/' + data.fid + '/' + iwc + data.original_source;
             if (data.image_handling === 'background') {
-              if (Drupal.drimage.webp === true) {
+              if (data.imageapi_optimize_web && Drupal.drimage.webp === true) {
                 el.style.backgroundImage = 'url("' + imgUrl + '.webp")';
               }
               else {

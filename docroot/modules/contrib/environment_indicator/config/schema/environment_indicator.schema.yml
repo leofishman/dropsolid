@@ -46,7 +46,7 @@ environment_indicator.indicator:
     mapping:
       name:
         type: string
-        label: 'Evironment name'
+        label: 'Environment name'
       fg_color:
         type: string
         label: 'Foreground color'
